@@ -15,14 +15,16 @@ const repeated = str => {
     const lowered = str.toLowerCase();
     const splitted = lowered.split(' ');
     const reduced = splitted.reduce((acc, ele) => {
-        if(acc[ele]){
-            acc[ele]++
-        }else{
-            acc[ele] = 1
-        }
+        acc[ele]? acc[ele]++ : acc[ele] = 1
         return acc
     }, {} );
     return reduced;
 }
-const c = repeated('Un dia nuevo, un oportunidad mas');
-console.log(c);
+const cc = repeated('Un dia nuevo, un oportunidad mas');
+
+//console.log('Un dia nuevo, un oportunidad mas'.toLowerCase().split(' ').);
+
+const d = [1000,3,4,2,13,9,200];
+//console.info(d.sort());
+const f = d[6]? 1:0
+console.log(f)
