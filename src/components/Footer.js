@@ -8,10 +8,10 @@ function Footer() {
     <div className="footer-container">
       <section className="footer-subscription">
         <p className="footer-suscription-heading">
-          Join the Adventure newsletter to recieve our best vacation deals
+          Suscribite, recibe las últimas noticias sobre Mountain Bike
         </p>
         <p className="footer-suscription-text">
-          you can unsuscribe at any time
+          puedes canelar la suscripcion cuando quieras
         </p>
         <div className="input-areas">
           <form>
@@ -21,24 +21,20 @@ function Footer() {
               placeholde="Your email"
               className="footer-input"
             />
-            <Button buttonStyle="btn--outline">Suscribe</Button>
+            <Button buttonStyle="btn--outline">Suscribirse</Button>
           </form>
         </div>
       </section>
       <div className="footer-links">
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
-            <h2>About Us</h2>
+            <h2>Conocenos</h2>
             <Link to="/sign-up">How it works</Link>
             <Link to="/">Testimonials</Link>
-            <Link to="/">Carrers</Link>
-            <Link to="/">Investors</Link>
             <Link to="/">Term of Service</Link>
           </div>
           <div className="footer-link-items">
             <h2>Contact Us</h2>
-            <Link to="/sign-up">How it works</Link>
-            <Link to="/">Testimonials</Link>
             <Link to="/">Carrers</Link>
             <Link to="/">Investors</Link>
             <Link to="/">Term of Service</Link>
@@ -46,16 +42,6 @@ function Footer() {
           <div className="footer-link-items">
             <h2>About Us</h2>
             <Link to="/sign-up">How it works</Link>
-            <Link to="/">Testimonials</Link>
-            <Link to="/">Carrers</Link>
-            <Link to="/">Investors</Link>
-            <Link to="/">Term of Service</Link>
-          </div>
-          <div className="footer-link-items">
-            <h2>About Us</h2>
-            <Link to="/sign-up">How it works</Link>
-            <Link to="/">Testimonials</Link>
-            <Link to="/">Carrers</Link>
             <Link to="/">Investors</Link>
             <Link to="/">Term of Service</Link>
           </div>
@@ -64,8 +50,8 @@ function Footer() {
       <section className="social-media">
         <div className="social-media-wrap">
           <div className="footer-logo">
-            <Link className="social-log">
-              TVRL <i className="fab fa-typo3"></i>
+            <Link className="social-logo">
+              MTB <i className="fab fa-typo3"></i>
             </Link>
           </div>
           <small className="website-rights">TRVL © 2020</small>
@@ -87,7 +73,7 @@ function Footer() {
               <i className="fab fa-instagram"/>
             </Link>
             <Link
-              className="social-icon-link twiter"
+              className="social-icon-link twitter"
               to="/"
               target="_blank"
               aria-label="Twiter"
